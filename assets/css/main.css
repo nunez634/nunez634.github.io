@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #5f4d93;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #5f4d93 15%, #5C70D6 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #5f4d93 15%, #5C70D6 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #5f4d93 15%, #5C70D6 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #5f4d93 15%, #5C70D6 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #5f4d93;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -1957,7 +1957,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
+			background-color: #DBDBDB;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -1967,7 +1967,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9acff2;
+				background-color: #DBDBDB;
 			}
 
 			input[type="submit"].primary:active,
@@ -1975,7 +1975,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7ec3ee;
+				background-color: #5C70D6;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -2157,8 +2157,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #8cc9f0;
-			box-shadow: 0 0 0 1px #8cc9f0;
+			border-color: #DBDBDB;
+			box-shadow: 0 0 0 1px #DBDBDB;
 		}
 
 	select {
@@ -2167,7 +2167,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #5C70D6;
 		}
 
 	input[type="checkbox"] + label,
@@ -2191,7 +2191,7 @@ input, select, textarea {
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
 		border-color: #8cc9f0;
-		box-shadow: 0 0 0 1px #8cc9f0;
+		box-shadow: 0 0 0 1px #DBDBDB;
 	}
 
 	::-webkit-input-placeholder {
